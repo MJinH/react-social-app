@@ -1,0 +1,155 @@
+
+
+.sideContainer {
+    display:flex;
+    flex-direction: column;
+    overflow:scroll;
+    top:0;
+    margin: 0;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+}
+
+
+.sideTop {
+    height: 350px;
+    width: auto;
+}
+
+.sideCover {
+    position:relative;
+}
+
+.backgroundImg {
+    width: 100%;
+    height: 250px;
+    object-fit:cover;
+}
+
+
+.userImg {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    left:0;
+    right:0;
+    top:200px;
+    margin:auto;
+    border-radius: 50%;
+}
+
+.sideInfo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.sidebarHr {
+    margin: 40px;
+}
+
+.sideCenter {
+    margin: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+
+}
+
+.sideWrapper {
+    display:flex;
+    align-items: center;
+    padding: 30px;
+}
+.shareImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.shareHr {
+    margin: 10px 20px;
+}
+
+.shareInput  {
+    border: none;
+    width: 70%;
+    height: 35px;
+    font-size: 16px;
+}
+
+.shareInput:focus {
+    outline: none;
+}
+
+
+.shareButton {
+    float:right;
+    margin-right: 20px;
+    height: 40px;
+    width: 60px;
+    margin-bottom: 10px;
+    border:none;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #93FFD8;
+    cursor: pointer;
+}
+
+
+.sideBottom {
+    padding: 20px; 
+}
+
+.friendList {
+    font-size: 24px;   
+}
+
+.friendImgs {
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.friendImg {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.status {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    top:-10px;
+    left: 170px;
+    border: 3px solid white;
+}
+
+.friendName {
+    margin-left: 80px;
+}
